@@ -1,4 +1,5 @@
 @charset "UTF-8";
+<<<<<<< Updated upstream
 /*
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
@@ -27,6 +28,26 @@
   background-image: url("../images/demo.jpg");
   background-size: cover;
   background-position: center;
+=======
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.visually-hiden {
+  /*--- Скрывает элементы----*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+>>>>>>> Stashed changes
 }
 
 .container {
@@ -48,9 +69,15 @@
   }
 }
 
+<<<<<<< Updated upstream
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+=======
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+>>>>>>> Stashed changes
   }
 }
 
