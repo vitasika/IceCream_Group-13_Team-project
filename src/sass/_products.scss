@@ -17,7 +17,6 @@
   @include fonts(34px, 39px, 400, 0.04em);
   text-transform: uppercase;
   color: $accentColor;
-  margin-bottom: 30px;
   margin-top: 15px;
   text-align: center;
 }
@@ -25,7 +24,12 @@
   width: 100%;
   min-height: 485px;
   border-radius: 24px;
-  margin-top: 130px;
+  &:not(:first-child) {
+    margin-top: 130px;
+  }
+  &:nth-child(1) {
+    margin-top: 144px;
+  }
   padding: 160px 40px 40px 40px;
   position: relative;
 }
