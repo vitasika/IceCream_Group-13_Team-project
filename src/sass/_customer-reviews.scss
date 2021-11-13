@@ -1,0 +1,34 @@
+.review-article-container{
+    background-color: #FAFAFA;
+    padding: 43px 50px 26px 50px;
+    
+}
+
+.review-article{
+    width: 100%;
+    @include fonts(12px, 31px, 500);
+    text-align: center;
+    padding-left: 7px;
+    position: relative;
+    padding-right: 16px;
+    background-image: repeating-linear-gradient(transparent, transparent 28px, #E1E1E1 28px, #E1E1E1 29px, transparent 29px, transparent 59px, #E1E1E1 59px, #E1E1E1 60px);
+}
+
+.review-article--before::before{
+    content: url(../images/symbol-defs.svg#icon-ustomer-quotes);
+    position: absolute;
+    width: 67px;
+    height: 55px;
+    z-index: 1000;
+    top: 20px;
+    left: 61px;
+    fill: #E1E1E1;
+    
+}
+
+.customer-img{
+    width: 85px; 
+    margin: 0 auto;
+}
+
+
