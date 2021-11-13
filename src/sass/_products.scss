@@ -27,6 +27,7 @@
   border-radius: 24px;
   margin-top: 130px;
   padding: 160px 40px 40px 40px;
+  position: relative;
 }
 .products__item--pink {
   background-color: $pinkbgСolor;
@@ -43,7 +44,7 @@
   text-transform: uppercase;
   color: $primaryTextColor;
   text-align: center;
-  margin-bottom: 66px;
+  margin-bottom: 30px;
 }
 .products__paragraph {
   font-family: DM Sans;
@@ -51,6 +52,7 @@
   text-align: center;
   color: $primaryTextColor;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .products__btn {
   width: 40px;
@@ -67,4 +69,20 @@
 .next-btn {
   width: 100%;
   height: 100%;
+}
+.products__icon {
+  fill: #ffffff;
+  width: 26px;
+  height: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.products__photo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -113px;
+  left: 20px;
 }
