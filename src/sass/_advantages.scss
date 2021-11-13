@@ -1,13 +1,6 @@
 .section {
     padding-bottom: 97px;
-    background-color: #FFF5F6;
-}
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+    background-color: $sectionbgColor;
 }
 .advantage-list {
     padding-left: 0;
@@ -22,18 +15,14 @@
 }
 .advantage-list__title {
 font-family: Titan One;
-font-weight: 400;
-font-size: 36px;
-line-height: 1.13;
-letter-spacing: 0.04em;
+@include fonts(36px, 41px, 400, 0.04em);
 text-transform: uppercase;
-color: #D41443;
+color: $accentColor;
 height: 50px;
 }
 .advantage-list__text {
-font-family: DM Sans;
 font-weight: 700;
 font-size: 12px;
 line-height: 1.66;
-color: #000000;
+color: $secondaryTextColor;
 }
