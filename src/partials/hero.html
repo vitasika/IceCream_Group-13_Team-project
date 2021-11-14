@@ -1,0 +1,18 @@
+<section class="hero">
+    <div class="container">
+        <svg class="hero__bg-circle">
+            <use href="images/symbol-defs.svg#icon-hero-circle"></use>
+        </svg>
+        <div class="hero__content">
+            <h1 class="hero__title">ice cream <br> made with <span>passion</span></h1>
+            <button type="button" class="hero__btn-left" data-modal-open>Products</button>
+            <button type="button" class="hero__btn-right" data-modal-open>How it’s made?</button>
+        </div>
+        <picture class="hero__icecream">
+            <source media="(min-width: 480px)" srcset="/images/hero-icecream-mob.png 1x, /images/hero-icecream-mob@2x.png 2x"/>
+            <source media="(min-width: 768px)" srcset="/images/hero-icecream-tab.png 1x, /images/hero-icecream-tab@2x.png 2x"/>
+            <source media="(min-width: 1280px)" srcset="/images/hero-icecream-desk.png 1x, /images/hero-icecream-desk@2x.png 2x"/>
+            <img src="/images/hero-icecream-desk.png" alt="ice cream cone" width="170" height="410"/>
+        </picture>
+    </div>
+</section>
