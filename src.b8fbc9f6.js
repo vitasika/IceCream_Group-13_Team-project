@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/symbol-defs.svg":[["symbol-defs.3f5ed0c5.svg","bKpA"],"bKpA"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/IceCream_Group-13_Team-project/src.e8ffb2ce.js.map
+//# sourceMappingURL=/IceCream_Group-13_Team-project/src.b8fbc9f6.js.map
