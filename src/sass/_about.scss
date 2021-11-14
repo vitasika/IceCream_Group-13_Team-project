@@ -11,6 +11,9 @@
   text-transform: uppercase;
   color: $titleColor;
   margin-bottom: 15px;
+  @media screen and (min-width: 767px) {
+    @include fonts(26px, 30px, 400, 0);
+  }
 }
 
 .about__title {
@@ -20,44 +23,68 @@
   text-transform: uppercase;
   color: $accentColor;
   margin-bottom: 26px;
+  @media screen and (min-width: 768px) {
+    @include fonts(48px, 55px, 400, 0.04em);
+    margin-bottom: 50px;
+  }
+}
+
+.about-main-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: relative;
+  }
 }
 
 .about__image-cow {
-  background-image: url(/images/about-cow-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
   margin-bottom: 46px;
-  //   max-height: 100%;
-  //   max-width: 100%;
-  width: 280px;
-  height: 280px;
-  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //     background-image: url(/images/about-cow-mobile2x.png);
-  //   }
-  //   @media screen and (min-width: 768px) {
-  //     background-image: url(/images/about-cow-tablet.png);
-  //     height: 339px;
-  //     width: 340px;
-  //     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //       background-image: url(/images/about-cow-tablet2x.png);
-  //     }
-  //   }
-  //   @media screen and (min-width: 1200px) {
-  //     background-image: url(/images/about-cow-desktop.png);
-  //     height: 516px;
-  //     width: 516px;
-  //     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //       background-image: url(/images/about-cow-desktop2x.png);
-  //     }
-  //   }
 }
+
+// .about__image-cow {
+//   background-image: url(/images/about-cow-mobile.png);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   display: block;
+//   margin-bottom: 46px;
+//   // max-height: 100%;
+//   // max-width: 100%;
+//   width: 280px;
+//   height: 280px;
+//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     background-image: url(/images/about-cow-mobile2x.png);
+//   }
+//   @media screen and (min-width: 767px) {
+//     background-image: url(/images/about-cow-tablet.png);
+//     height: 339px;
+//     width: 340px;
+//     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//       background-image: url(/images/about-cow-tablet2x.png);
+//     }
+//   }
+//   @media screen and (min-width: 1200px) {
+//     background-image: url(/images/about-cow-desktop.png);
+//     height: 516px;
+//     width: 516px;
+//     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//       background-image: url(/images/about-cow-desktop2x.png);
+//     }
+//   }
+// }
 
 .about__container {
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+    margin-left: 20px;
+    width: 45%;
+    position: static;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 35%;
+  }
 }
 
 .about__text {
@@ -71,6 +98,13 @@
   }
   &_indent {
     margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    @include fonts(14px, 25px, 500, 0);
+  }
+  @media screen and (min-width: 1280px) {
+    position: sticky;
+    z-index: 3;
   }
 }
 
@@ -86,6 +120,9 @@
   display: flex;
   align-items: center;
   transition: background-color $animation;
+  @media screen and (min-width: 768px) {
+    margin-top: 62px;
+  }
   &:hover,
   &:focus {
     background-color: $secondaryhoverBtn;
@@ -99,7 +136,18 @@
 .about__image-milk {
   display: block;
   position: absolute;
-  top: 180px;
-  left: -18px;
-  right: -10px;
+  top: 65%;
+  left: -11%;
+  right: -11%;
+  transform: translateY(-50%);
+
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 1280px) {
+    display: block;
+    left: -3%;
+    right: 18%;
+    top: 40%;
+  }
 }
