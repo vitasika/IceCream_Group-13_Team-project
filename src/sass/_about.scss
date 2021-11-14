@@ -1,0 +1,105 @@
+.about-section {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-color: $sectionbgColor;
+}
+
+.about__pre-title {
+  font-family: Titan One;
+  @include fonts(18px, 21px, 400, 0);
+  text-align: center;
+  text-transform: uppercase;
+  color: $titleColor;
+  margin-bottom: 15px;
+}
+
+.about__title {
+  font-family: Titan One;
+  @include fonts(34px, 39px, 400, 0.04em);
+  text-align: center;
+  text-transform: uppercase;
+  color: $accentColor;
+  margin-bottom: 26px;
+}
+
+.about__image-cow {
+  background-image: url(/images/about-cow-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin-bottom: 46px;
+  //   max-height: 100%;
+  //   max-width: 100%;
+  width: 280px;
+  height: 280px;
+  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //     background-image: url(/images/about-cow-mobile2x.png);
+  //   }
+  //   @media screen and (min-width: 768px) {
+  //     background-image: url(/images/about-cow-tablet.png);
+  //     height: 339px;
+  //     width: 340px;
+  //     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //       background-image: url(/images/about-cow-tablet2x.png);
+  //     }
+  //   }
+  //   @media screen and (min-width: 1200px) {
+  //     background-image: url(/images/about-cow-desktop.png);
+  //     height: 516px;
+  //     width: 516px;
+  //     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //       background-image: url(/images/about-cow-desktop2x.png);
+  //     }
+  //   }
+}
+
+.about__container {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.about__text {
+  @include fonts(12px, 19px, 500, 0);
+  &_black {
+    color: $secondaryTextColor;
+    margin-bottom: 40px;
+  }
+  &_gray {
+    color: $rareColor;
+  }
+  &_indent {
+    margin-bottom: 20px;
+  }
+}
+
+.about__button {
+  min-width: 176px;
+  margin-top: 17px;
+  background: $primaryTextColor;
+  border-radius: 22px;
+  border: transparent;
+  padding: 12px 39px 12px 36px;
+  @include fonts(14px, 18px, 700, 0);
+  color: $accentColor;
+  display: flex;
+  align-items: center;
+  transition: background-color $animation;
+  &:hover,
+  &:focus {
+    background-color: $secondaryhoverBtn;
+  }
+}
+
+.about__button-icon {
+  margin-left: 13px;
+}
+
+.about__image-milk {
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: -18px;
+  right: -10px;
+}
