@@ -1,0 +1,64 @@
+<header class="header">
+    <div class="container header-box">
+
+    <!-- --------------ЛОГОТИП------------------------- -->
+        <picture class="header-logo">
+            <img 
+                srcset="
+                    images/logo1_1x.png 1x,
+                    images/logo1_2x.png 2x,
+                    images/logo1_3x.png 3x"
+                src="images/logo1_1x.png" 
+                alt="Logo" 
+                width="199" 
+            />
+        </picture>
+    <!-- -------------------МЕНЮ---------------------- -->
+        <button type="button" class="menu-button menu-button--dist js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="menu-button__icon menu-button--hover">
+                <use href="images/symbol-defs.svg#icon-header-menu"></use>
+            </svg>
+        </button>
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+
+            <button type="button" class="menu-button menu-close js-close-menu">
+                <svg class="menu-button__icon menu-button__close">
+                    <use href="images/symbol-defs.svg#icon-menu-close"></use>
+                </svg>
+            </button>
+
+            <button type="button" class="header-button header-button--hide">Buy now ></button>
+    <!-- ----------------НАВИГАЦИЯ-------------------- -->
+            <nav>
+                <ul class="header-list">
+                    <li class="header-list__item">
+                        <a href="#" class="header-list__link">Home</a>
+                    </li>
+
+                    <li class="header-list__item">
+                        <a href="#" class="header-list__link">About us</a>
+                    </li>
+
+                    <li class="header-list__item">
+                        <a href="#" class="header-list__link">How it's made?</a>
+                    </li>
+
+                    <li class="header-list__item">
+                        <a href="#" class="header-list__link">Our products</a>
+                    </li>
+
+                    <li class="header-list__item">
+                        <a href="#" class="header-list__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <!-- ------------КНОПКА "BUY NOW"----------------- -->
+        <button type="button" class="header-button header-btn--hide">Buy now ></button>
+    </div>
+</header>
+
+<script src="js/modal.js"></script>
+
+<script src="js/mobile-menu.js"></script>
