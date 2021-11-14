@@ -20,7 +20,7 @@
 }
 .hero__content{
     position: absolute;
-z-index: 3;
+    z-index: 3;
 }
 .hero__title{
     font-family: Titan One;
@@ -62,18 +62,6 @@ z-index: 3;
     &:focus{
         background-color: $hoverBtn;
     }
-
-//   padding: 10px 32px;
-//   margin: 0 auto;
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.87;
-//   display: flex;
-//   align-items: center;
-//   text-align: center;
-//   letter-spacing: 0.06em;
-
-//   color: var(--accent-color-btn);
 }
 .hero__btn-right{
     background: $primaryTextColor;
@@ -94,17 +82,6 @@ z-index: 3;
     &:focus{
         background: $secondaryhoverBtn;
     }
-//   padding: 10px 32px;
-//   margin: 0 auto;
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.87;
-//   display: flex;
-//   align-items: center;
-//   text-align: center;
-//   letter-spacing: 0.06em;
-
-//   color: var(--accent-color-btn);
 }
 .hero__icecream{
     width: 175px;
