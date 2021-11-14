@@ -1,0 +1,116 @@
+.hero{
+    position: relative;
+    max-width: 1280px;
+    height: 500px;
+    padding: 160px 0 140px 0;
+    margin: 0 auto;
+    overflow: hidden;
+
+    background-color: $pinkbgСolor;
+}
+.hero__bg-circle{
+    width: 346px;
+    height: 344px;
+    fill: $pinkbgCircle;
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.hero__content{
+    position: absolute;
+z-index: 3;
+}
+.hero__title{
+    font-family: Titan One;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $primaryTextColor;
+}
+.hero__title span{
+    margin-bottom: 20px;
+
+    font-family: Titan One;
+    font-size: 48px;
+    line-height: 96.5%;
+/* or 46px */
+
+    text-transform: uppercase;
+
+    color: $accentColor;
+}
+.hero__btn-left{
+    background: $accentColor;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 9px 16px;
+    cursor: pointer;
+
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+
+    color: $primaryTextColor;
+
+    transition: background-color $animation;
+
+    &:hover,
+    &:focus{
+        background-color: $hoverBtn;
+    }
+
+//   padding: 10px 32px;
+//   margin: 0 auto;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.87;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+
+//   color: var(--accent-color-btn);
+}
+.hero__btn-right{
+    background: $primaryTextColor;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 9px 16px;
+    cursor: pointer;
+
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+
+    color: $accentColor;
+
+    transition: background $animation;
+
+    &:hover,
+    &:focus{
+        background: $secondaryhoverBtn;
+    }
+//   padding: 10px 32px;
+//   margin: 0 auto;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.87;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+
+//   color: var(--accent-color-btn);
+}
+.hero__icecream{
+    width: 175px;
+    height: 410px;
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+    z-index: 2;
+}
