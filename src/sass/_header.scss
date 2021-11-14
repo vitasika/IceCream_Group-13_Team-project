@@ -1,0 +1,187 @@
+
+.header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-box {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0) scale(1);
+
+    display: flex;
+    align-items: center;
+    height: 62px;
+
+    @media screen and (min-width: 768px) {
+        height: 87px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        justify-content: space-between;
+    }
+}
+
+.header-logo {
+    @media screen and (max-width: 1279px) {
+        margin-right: auto;
+    }
+}
+
+.menu-container {
+    @media screen and (max-width: 1279px) {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 101;
+        display: flex;
+        flex-direction: column;
+        background-color: $mobilebgMenu;
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        width: 254px;
+        height: 100vh;
+        @media screen and (min-width: 480px) {
+            width: 254px;
+        }
+        transform: translateX(100vw);
+        transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        &.is-open {
+            transform: translateX(0);
+        }
+    }
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+    border: transparent;
+    background-color: transparent;
+    
+    .menu-container & {
+        align-self: flex-end;
+    }
+
+    @media screen and (min-width: 768px) {
+        &.menu-button--dist {
+            margin-right: 30px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.menu-close {
+    margin-bottom: 23px;
+}
+
+.menu-button__icon {
+    width: 40px;
+    height: 40px;
+    fill: $accentColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &.menu-button__close {
+        fill: $primaryTextColor;
+    }
+
+    .menu-button:hover &, .menu-button:focus & {
+        fill: $hoverBtn;
+    }
+
+    .menu-button:hover &.menu-button--hover, .menu-button:focus &.menu-button--hover {
+        fill: $rareColor;
+    }
+}
+
+.header-button {
+    background-color: $primaryTextColor;
+    font-family: inherit;
+    @include fonts(16px, 20.83px, 700, 0.02em);
+    color: $accentColor;
+    cursor: pointer;
+    text-align: center;
+    border: transparent;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    width: 160px;
+    height: 44px;
+    &.header-button--hide {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+
+    @media screen and (max-width: 767px) {
+        &.header-btn--hide {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        &.header-button--hide {
+            display: none;
+        }
+    }
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        background-color: $secondaryhoverBtn;
+    }
+}
+
+.header-list {
+    display: flex;
+    @media screen and (max-width: 1279px) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 1280px) {
+        align-items: center;
+    }
+}
+
+.header-list__item {
+    height: 40px;
+    @media screen and (min-width: 1280px) {
+        &:not(:last-child) {
+            margin-right: 35px;
+        }
+        height: 100%;
+    }
+}
+
+.header-list__link {
+    @include fonts(14px, 18.23px, 700, 0.03em);
+    color: $primaryTextColor;
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    @media screen and (min-width: 1280px) {
+        @include fonts(16px, 20.83px, 700, 0.03em);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: $accentColor;
+    }
+    &.link--current {
+        color: $accentColor;
+    }
+}
