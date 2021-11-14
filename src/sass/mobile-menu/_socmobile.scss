@@ -1,0 +1,24 @@
+.mobile-socblok {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile-socblok__item {
+  margin-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+  &:last-child {
+    margin-right: 0;
+    border: none;
+  }
+}
+
+.mobile-socblok__link {
+  padding-right: 10px;
+  font-size: 18px;
+  line-height: 1.22;
+
+  letter-spacing: 0.02em;
+
+  color: $accent-color;
+}
