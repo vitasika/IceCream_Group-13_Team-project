@@ -1,26 +1,10 @@
-<section class="about-section">
+<section class="about-section" id="about">
   <div class="container">
     <p class="about__pre-title">tradition and love</p>
     <h2 class="about__title">how it’s made?</h2>
-    <div class="about-main-container">
-      <!-- <span class="about__image-cow"></span> -->
-      <picture>
-        <source
-          media="(min-width: 1280px )"
-          srcset="/images/about-cow-desktop.png 1x, /images/about-cow-desktop2x.png 2x"
-        />
-
-        <source
-          media="(min-width: 768px )"
-          srcset="/images/about-cow-tablet.png 1x, /images/about-cow-tablet2x.png 2x"
-        />
-        <source
-          media="(min-width: 320px )"
-          srcset="/images/about-cow-mobile.png 1x, /images/about-cow-mobile2x.png 2x"
-        />
-        <img src="/images/about-cow-mobile.png" alt="cow" width="280px" height="280px" />
-      </picture>
-      <div class="about__container">
+    <div class="about-container about-container_position">
+      <div class="about__image-cow"></div>
+      <div class="about__text-container">
         <p class="about__text about__text_black">
           Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
           lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
@@ -46,12 +30,12 @@
             <img src="/images/milk-bg-destop.png" alt="milk" height="534" />
           </picture>
         </span>
-        <button type="button" class="about__button">
-          Read more
+        <a href="" class="about__button-link"
+          >Read More
           <svg class="about__button-icon" width="8" height="9">
             <use href="/images/symbol-defs.svg#icon-about-arrow"></use>
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   </div>

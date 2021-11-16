@@ -3,6 +3,7 @@
     background: linear-gradient(180deg, #ffffff 7%, #fff5f6 0, #ffffff 0, #fff5f6 0%);
     margin-left: auto;
     margin-right: auto;
+    
     @media screen and (min-width: 768px) {
       background: linear-gradient(180deg, #ffffff 15%, #fff5f6, #ffffff, #fff5f6 0%);
     }
@@ -81,14 +82,14 @@
 }
 
 .contact-overlay {
+
   @media screen and (min-width: 1280px) {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    // display: flex;
     background: $sectionbgColor;
     background-position-y: 102px;
     justify-content: center;
-    background-image: url(/images/contacts-bg1x.png);
     background-repeat: no-repeat;
     width: 100%;
     min-height: 573px;
@@ -333,7 +334,7 @@
   padding-bottom: 113px;
   @media screen and (min-width: 768px) {
     display: flex;
-    padding-bottom: 158px;
+    padding-bottom: 165px;
   }
   @media screen and (min-width: 1280px) {
     display: flex;

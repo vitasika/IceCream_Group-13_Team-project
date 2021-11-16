@@ -8,12 +8,7 @@
 
 <defs>
 <symbol id="icon-advantages-apples" viewBox="0 0 50 50">
-<pattern
-        id="pattern0"
-        patternContentUnits="objectBoundingBox"
-        width="1"
-        height="1"
-      >
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1_226" transform="scale(0.02)" />
 </pattern>
 <image
@@ -25,12 +20,7 @@
 </symbol>
 
 <symbol id="icon-advantages-heart" viewBox="0 0 44 50">
-<pattern
-        id="pattern0"
-        patternContentUnits="objectBoundingBox"
-        width="1"
-        height="1"
-      >
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1_227" transform="scale(0.0227273 0.02)" />
 </pattern>
 <image
@@ -42,12 +32,7 @@
 </symbol>
 
 <symbol id="icon-advantages-icecream" viewBox="0 0 33 50">
-<pattern
-        id="pattern0"
-        patternContentUnits="objectBoundingBox"
-        width="1"
-        height="1"
-      >
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1_228" transform="scale(0.030303 0.02)" />
 </pattern>
 <image
@@ -59,16 +44,16 @@
 </symbol>
 
 <symbol id="icon-Ellipse-5" viewBox="0 0 32 32">
-<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z" />
 </symbol>
 <symbol id="icon-home" viewBox="0 0 35 32">
-<path d="M32.64 15.4c0.256-0.274 0.413-0.644 0.413-1.050 0-0.47-0.21-0.89-0.541-1.173l-0.002-0.002-14.773-12.749c-0.319-0.265-0.733-0.425-1.184-0.425-0.466 0-0.892 0.171-1.218 0.454l0.002-0.002-14.821 13.403c-0.316 0.282-0.515 0.69-0.515 1.145 0 0.42 0.169 0.8 0.443 1.077l-0-0 0.373 0.381c0.613 0.635 1.611 0.709 2.224 0.168l1.107-0.979v14.328c0.006 0.879 0.72 1.589 1.6 1.589 0.005 0 0.009-0 0.014-0h5.775c0.004 0 0.009 0 0.013 0 0.88 0 1.594-0.71 1.6-1.589v-10.025h7.371v10.024c-0.013 0.88 0.624 1.589 1.515 1.589h6.123c0.003 0 0.007 0 0.011 0 0.88 0 1.594-0.71 1.6-1.589v-14.126l0.685 0.592c0.376 0.325 1.168 0.064 1.765-0.587l0.421-0.453z"></path>
+<path
+        d="M32.64 15.4c0.256-0.274 0.413-0.644 0.413-1.050 0-0.47-0.21-0.89-0.541-1.173l-0.002-0.002-14.773-12.749c-0.319-0.265-0.733-0.425-1.184-0.425-0.466 0-0.892 0.171-1.218 0.454l0.002-0.002-14.821 13.403c-0.316 0.282-0.515 0.69-0.515 1.145 0 0.42 0.169 0.8 0.443 1.077l-0-0 0.373 0.381c0.613 0.635 1.611 0.709 2.224 0.168l1.107-0.979v14.328c0.006 0.879 0.72 1.589 1.6 1.589 0.005 0 0.009-0 0.014-0h5.775c0.004 0 0.009 0 0.013 0 0.88 0 1.594-0.71 1.6-1.589v-10.025h7.371v10.024c-0.013 0.88 0.624 1.589 1.515 1.589h6.123c0.003 0 0.007 0 0.011 0 0.88 0 1.594-0.71 1.6-1.589v-14.126l0.685 0.592c0.376 0.325 1.168 0.064 1.765-0.587l0.421-0.453z"
+      />
 </symbol>
 
 <symbol id="icon-footer-facebook" viewBox="0 0 32 32">
-<path
-        d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16z"
-      />
+<path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16z" />
 <path
         fill="#fff"
         style="fill: var(--color5, #fff)"
@@ -77,9 +62,7 @@
 </symbol>
 
 <symbol id="icon-footer-github" viewBox="0 0 32 32">
-<path
-        d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
-      />
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z" />
 <path
         fill="#fff"
         style="fill: var(--color5, #fff)"
@@ -88,9 +71,7 @@
 </symbol>
 
 <symbol id="icon-footer-telegram" viewBox="0 0 32 32">
-<path
-        d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
-      />
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z" />
 <path
         fill="#fff"
         style="fill: var(--color5, #fff)"
@@ -105,15 +86,11 @@
 </symbol>
 
 <symbol id="icon-hero-circle" viewBox="0 0 32 32">
-<path
-        d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
-      />
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z" />
 </symbol>
 
 <symbol id="icon-hero-ellipse" viewBox="0 0 32 32">
-<path
-        d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
-      />
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z" />
 </symbol>
 
 <symbol id="icon-menu-close" viewBox="0 0 32 32">
@@ -123,12 +100,7 @@
 </symbol>
 
 <symbol id="icon-products-arrow" viewBox="0 0 40 40">
-<pattern
-        id="pattern0"
-        patternContentUnits="objectBoundingBox"
-        width="1"
-        height="1"
-      >
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_5_314" transform="scale(0.025)" />
 </pattern>
 <image
@@ -151,9 +123,21 @@
       />
 </symbol>
 <symbol id="icon-points" viewBox="0 0 139 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M85.333 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M138.667 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path
+        fill="#fff"
+        style="fill: var(--color1, #fff)"
+        d="M85.333 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
+      />
+<path
+        fill="#fff"
+        style="fill: var(--color1, #fff)"
+        d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
+      />
+<path
+        fill="#fff"
+        style="fill: var(--color1, #fff)"
+        d="M138.667 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"
+      />
 </symbol>
 <symbol id="icon-ustomer-quotes" viewBox="0 0 32 32">
 <path
@@ -161,7 +145,36 @@
       />
 </symbol>
 <symbol id="icon-about-arrow" viewBox="0 0 26 32">
-<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M5.171 3.2l14.17 12.8-14.17 12.8"></path>
+<path
+        fill="none"
+        stroke="#d41443"
+        style="stroke: var(--color1, #d41443)"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        stroke-miterlimit="4"
+        stroke-width="6.4"
+        d="M5.171 3.2l14.17 12.8-14.17 12.8"
+      />
+</symbol>
+<symbol id="icon-modal-person" viewBox="0 0 32 32">
+<path
+        d="M16 16c2.946 0 5.333-2.388 5.333-5.333s-2.388-5.333-5.333-5.333v0c-2.946 0-5.333 2.388-5.333 5.333s2.388 5.333 5.333 5.333v0zM16 18.667c-3.561 0-10.667 1.787-10.667 5.333v1.333c0 0.732 0.599 1.333 1.333 1.333h18.667c0.732 0 1.333-0.601 1.333-1.333v-1.333c0-3.547-7.108-5.333-10.667-5.333z"
+      />
+</symbol>
+<symbol id="icon-modal-tel" viewBox="0 0 32 32">
+<path
+        d="M24.882 19.774l-3.268-0.373c-0.090-0.011-0.194-0.018-0.3-0.018-0.707 0-1.347 0.287-1.81 0.75l-2.368 2.368c-3.669-1.894-6.585-4.81-8.427-8.372l-0.051-0.108 2.382-2.377c0.463-0.463 0.75-1.103 0.75-1.81 0-0.106-0.006-0.21-0.019-0.312l0.001 0.012-0.373-3.243c-0.155-1.287-1.24-2.276-2.557-2.276-0.001 0-0.002 0-0.003 0h-2.226c-1.454 0-2.663 1.209-2.574 2.661 0.683 10.987 9.47 19.762 20.444 20.444 1.452 0.089 2.663-1.12 2.663-2.574v-2.226c0-0.004 0-0.008 0-0.012 0-1.308-0.985-2.386-2.253-2.532l-0.012-0.001z"
+      />
+</symbol>
+<symbol id="icon-modal-mail" viewBox="0 0 32 32">
+<path
+        d="M28 4h-24c-1.65 0-2.986 1.35-2.986 3l-0.014 18c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3v-18c0-1.65-1.35-3-3-3zM27.4 10.376l-10.604 6.628c-0.226 0.141-0.501 0.225-0.795 0.225s-0.569-0.084-0.801-0.229l0.006 0.004-10.606-6.63c-0.378-0.226-0.627-0.632-0.627-1.097 0-0.704 0.57-1.274 1.274-1.274 0.262 0 0.505 0.079 0.707 0.214l-0.005-0.003 10.050 6.286 10.050-6.286c0.198-0.132 0.441-0.211 0.703-0.211 0.704 0 1.274 0.57 1.274 1.274 0 0.465-0.249 0.871-0.621 1.094l-0.006 0.003z"
+      />
+</symbol>
+<symbol id="icon-modal-marck" viewBox="0 0 32 32">
+<path
+        d="M4.817 15.39l-0.17-0.162-0.17 0.16-2.373 2.25 0.187 0.18 8.775 8.369 0.17-0.162 18.658-17.799-0.187-0.177-2.341-2.233-0.17 0.162-16.13 15.375-6.25-5.962z"
+      />
 </symbol>
 <symbol id="icon-Vector-1-1" viewBox="0 0 22 32">
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.471 3.2l13.7 12.8-13.7 12.8"></path>
