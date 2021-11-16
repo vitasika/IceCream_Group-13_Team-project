@@ -1,0 +1,90 @@
+<!----------------------- Модальное окно--------------------- -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button data-modal-close type="button" class="modal__button">
+            <svg class="modal__icon-btn">
+                <use href="images/symbol-defs.svg#icon-menu-close"></use>
+            </svg>
+        </button>
+
+        <form class="modal-form">
+            <b class="modal-form__title">Leave your details, we will call you back</b>
+
+            <div class="modal-form__field">
+                <label for="name" class="modal-form__label">Name</label>
+                <input type="text" name="name" id="name" class="modal-form__input" />
+                <svg class="modal-form__icon">
+                    <use href="images/symbol-defs.svg#icon-modal-person"></use>
+                </svg>
+            </div>
+
+            <div class="modal-form__field">
+                <label for="phone" class="modal-form__label">Phone number</label>
+                <input type="tel" name="phone" id="phone" class="modal-form__input" />
+                <svg class="modal-form__icon">
+                    <use href="images/symbol-defs.svg#icon-modal-tel"></use>
+                </svg>
+            </div>
+
+            <div class="modal-form__field">
+                <label for="e-mail" class="modal-form__label">E-mail</label>
+                <input type="email" name="e-mail" id="e-mail" class="modal-form__input" />
+                <svg class="modal-form__icon">
+                    <use href="images/symbol-defs.svg#icon-modal-mail"></use>
+                </svg>
+            </div>
+
+            <div role="group" class="modal-form__radio">
+                <b class="modal-form__label">Choose your location</b>
+                <ul>
+                    <li>
+                        <input type="radio" name="location" value="chicago" id="chicago" class="radio-input" />
+                        <label for="chicago" class="modal-form__label form__label--radio">
+                            <svg class="form__radio-icon">
+                                <use href="images/symbol-defs.svg#icon-modal-marck"></use>
+                            </svg>
+                            Chicago
+                        </label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="location" value="los-angeles" id="los-angeles" class="radio-input"/>
+                        <label for="los-angeles" class="modal-form__label form__label--radio">
+                            <svg class="form__radio-icon">
+                                <use href="images/symbol-defs.svg#icon-modal-marck"></use>
+                            </svg>
+                            Los Ageles</label>
+                    </li>
+
+                    <li><input type="radio" name="location" value="new-york" id="new-york" class="radio-input"/>
+                    <label for="new-york" class="modal-form__label form__label--radio">
+                        <svg class="form__radio-icon">
+                            <use href="images/symbol-defs.svg#icon-modal-marck"></use>
+                        </svg>
+                        New York</label></li>
+                </ul>
+
+            </div>
+
+            <div class="modal-form__field modal-form__fild-coments">
+                <label for="coments" class="modal-form__label">Your comments</label>
+                <textarea name="coments" id="coments" rows="6" placeholder="Enter text"
+                    class="modal-form__input modal-form__coments"></textarea>
+            </div>
+
+            <div class="modal-form__checkbox-field">
+                <input type="checkbox" name="agreement" id="agreement" class="modal-form__checkbox-input" />
+                <label for="agreement" class="modal-form__checkbox-label">
+                    <svg class="modal-form__checkbox-icon">
+                        <use href="images/symbol-defs.svg#icon-modal-marck"></use>
+                    </svg>
+                    I agree with
+                    <a href="" class="modal-form__link">The terms of the contract</a>
+                </label>
+
+            </div> 
+
+            <button type="submit" class="modal-form__btn">Send  ></button>
+        </form> 
+    </div>
+</div>
