@@ -123,6 +123,10 @@
   }
 }
 
+.category-green {
+  background-color: #c2e297;
+}
+
 .contacts__categorycity {
   font-family: DM Sans;
   font-size: 12px;
@@ -327,8 +331,14 @@
   background: $sectionbgColor;
   display: grid;
   justify-content: center;
+  padding-bottom: 113px;
   @media screen and (min-width: 768px) {
     display: flex;
+    padding-bottom: 158px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    padding-bottom: 165px;
   }
 }
 
