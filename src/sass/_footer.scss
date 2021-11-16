@@ -5,7 +5,6 @@ $iconColor: #fea5bb;
 }
 
 .footer__block {
-
   max-width: 480px;
   width: 100%;
   padding-top: 50px;
@@ -37,21 +36,26 @@ $iconColor: #fea5bb;
 
 .footer__slogan-item {
   margin-bottom: 17px;
+  
   @media screen and (min-width: 768px) {
     margin-bottom: 16px;
   }
+  
   @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
-
+  }
 }
 
 .footer__slogan-item {
   max-width: 232px;
+  
   @media screen and (min-width: 768px) {
     max-width: 100%;
   }
+  
   &:first-child {
     margin-bottom: 17px;
+      
     @media screen and (min-width: 768px) {
       margin-bottom: 16px;
     }
@@ -77,7 +81,6 @@ $iconColor: #fea5bb;
     line-height: 1.15;
     letter-spacing: 0.04em;
   }
-
 }
 
 .footer__slogan-text--second {
@@ -93,11 +96,11 @@ $iconColor: #fea5bb;
   @media screen and (min-width: 1280px) {
     font-size: 58px;
   }
-
 }
 
 .footer__aside {
   margin-bottom: 43px;
+  
   @media screen and (min-width: 768px) {
     margin-left: auto;
     margin-bottom: 0;
@@ -115,9 +118,11 @@ $iconColor: #fea5bb;
 
 .footer__soc-item {
   margin-right: 28px;
+  
   @media screen and (min-width: 768px) {
     margin-right: 30px;
   }
+  
   @media screen and (min-width: 1080px) {
     margin-right: 25px;
   }
@@ -126,6 +131,7 @@ $iconColor: #fea5bb;
 .footer__soc-link {
   fill: $iconColor;
   transition: fill $animation;
+  
   &:focus,
   &:hover {
     fill: $accentColor;
