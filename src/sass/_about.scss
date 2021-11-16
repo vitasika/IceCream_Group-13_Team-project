@@ -118,14 +118,17 @@
 .about__button-link {
   max-width: 176px;
   margin-top: 17px;
-  display: block;
   background: $primaryTextColor;
   border-radius: 22px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  z-index: 222;
+  position: sticky;
   border: transparent;
   padding: 12px 39px 12px 36px;
   @include fonts(14px, 18px, 700, 0);
   color: $accentColor;
-  display: block;
   align-items: center;
   // -webkit-appearance: button;
   transition: background-color $animation;
@@ -155,7 +158,7 @@
   }
   @media screen and (min-width: 1280px) {
     display: block;
-    right: 5%;
+    right: 4%;
     top: 78%;
   }
 }
