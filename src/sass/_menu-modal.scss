@@ -176,6 +176,7 @@
 .form__label--radio {
     display: flex;
     align-items: center;
+    cursor: pointer;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .radio-input:checked + & {
         color: $hoverBtn;
