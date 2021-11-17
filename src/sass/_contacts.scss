@@ -26,7 +26,6 @@
     background-image: url(/images/contacts-bg1x.png);
     justify-content: center;
     background-repeat: no-repeat;
-   
   }
 }
 
@@ -120,6 +119,7 @@
   font-family: DM Sans;
   font-size: 12px;
   line-height: 1.5;
+  font-weight: 500;
   color: $secondaryTextColor;
   margin-bottom: 10px;
   @media screen and (min-width: 768px) {
