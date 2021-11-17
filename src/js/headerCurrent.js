@@ -1,7 +1,8 @@
+
 jQuery(window).scroll(function(){
          var $sections = $('section');
 	$sections.each(function(i,el){
-        var top  = $(el).offset().top-600;
+        var top  = $(el).offset().top-100;
         var bottom = top +$(el).height();
         var scroll = $(window).scrollTop();
         var id = $(el).attr('id');
@@ -11,8 +12,8 @@ jQuery(window).scroll(function(){
 
         }
     })
- });
-
+});
+ 
 $("nav").on("click","a", function (event) {
         // исключаем стандартную реакцию браузера
         event.preventDefault();
