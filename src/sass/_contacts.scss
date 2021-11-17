@@ -3,7 +3,7 @@
     background: linear-gradient(180deg, #ffffff 7%, #fff5f6 0, #ffffff 0, #fff5f6 0%);
     margin-left: auto;
     margin-right: auto;
-    
+
     @media screen and (min-width: 768px) {
       background: linear-gradient(180deg, #ffffff 15%, #fff5f6, #ffffff, #fff5f6 0%);
     }
@@ -19,6 +19,13 @@
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 86px;
+    background-image: url(/images/contacts-bg1x.png);
+    justify-content: center;
+    background-repeat: no-repeat;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      max-width: 1600px;
+      background-image: url(/images/contacts-bg2x.png);
+    }
   }
 }
 
@@ -79,26 +86,6 @@
   margin-bottom: 54px;
   @media screen and (min-width: 768px) {
     margin-right: 0px;
-  }
-}
-
-.contact-overlay {
-
-  @media screen and (min-width: 1280px) {
-    margin-left: auto;
-    margin-right: auto;
-    // display: flex;
-    background: $sectionbgColor;
-    background-position-y: 102px;
-    justify-content: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 573px;
-
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      max-width: 1600px;
-      background-image: url(/images/contacts-bg2x.png);
-    }
   }
 }
 
@@ -299,16 +286,13 @@
     height: 44px;
     margin-right: 15px;
   }
-  
+
   &:hover,
   &:focus {
-    background-color: #C7133E;
+    background-color: #c7133e;
     cursor: pointer;
   }
-  
 }
-
-
 
 .collaboration__btntwo {
   background: $primaryTextColor;
@@ -333,7 +317,7 @@
     width: 180px;
     height: 44px;
   }
-  
+
   &:hover,
   &:focus {
     background-color: $secondaryhoverBtn;
