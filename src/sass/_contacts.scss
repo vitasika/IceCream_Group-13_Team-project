@@ -280,6 +280,7 @@
   height: 44px;
   margin-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
 
   @media screen and (min-width: 768px) {
     width: 191.45 px;
@@ -314,6 +315,7 @@
   border: transparent;
   color: $accentColor;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
 
   @media screen and (min-width: 768px) {
     width: 174.05px;
