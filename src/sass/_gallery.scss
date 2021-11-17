@@ -1,16 +1,15 @@
 .gallery {
   padding-bottom: 80px;
-  background: linear-gradient(to bottom, $sectionbgColor 22%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%);
+  background: linear-gradient(to bottom, $sectionbgColor 20%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%);
   @media screen and (min-width: 480px) {
     padding-bottom: 121px;
     background: linear-gradient(to bottom, $sectionbgColor 23%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%);
   }
   @media screen and (min-width: 768px) {
-    background: linear-gradient(to bottom, $sectionbgColor 27%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%); 
+    background: linear-gradient(to bottom, $sectionbgColor 30%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%); 
   }
   @media screen and (min-width: 1280px) {
     padding-bottom: 131px;
-    background: linear-gradient(to bottom, $sectionbgColor 31%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%); 
-    
+    background: linear-gradient(to bottom, $sectionbgColor 33%, $sectionbgColor 5%, $primaryTextColor 5%, $primaryTextColor 50%); 
   }
 }

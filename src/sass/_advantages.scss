@@ -1,5 +1,5 @@
 .section {
-    padding-bottom: 97px;
+    padding-bottom: 130px;
     background-color: $sectionbgColor;
 
     @media screen and (min-width: 768px) {
@@ -12,34 +12,28 @@
     }
 }
 .advantage-list {
-    padding-left: 0;
-    padding-right: 0;
-    @media screen and (min-width: 480px) {
-        display: flex;
+    display: flex;
+    flex-direction: column;
+    // padding-left: 0;
+    // padding-right: 0;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        margin-left: -60px;
     }
     @media screen and (min-width: 1280px) {
-        padding-left: 115px;
-        padding-right: 115px;
-        
+       margin-left: -30px; 
     }
 }
 .advantage-list__item {
-    width: 230px;
+    // width: 230px;
     margin-bottom: 38px;
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        width: 180px;
-    margin-bottom: 0px;
-    max-width: 100%;
-        &:not(:last-child) {
-            margin-right: 60px;
-        }
+    @media screen and (min-width: 480px) {
+    flex-basis: calc(100% / 3 - 60px);
+    margin-left: 60px;
     }
     @media screen and (min-width: 768px) {
-        width: 330px;
-        margin-bottom: 0px;
-        &:not(:last-child) {
-            margin-right: 30px;
-        }
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
         
     }
 }
@@ -58,6 +52,7 @@ font-family: Titan One;
 @include fonts(36px, 41px, 400, 0.04em);
 text-transform: uppercase;
 color: $accentColor;
+max-width: 230px;
 height: 50px;
 animation-name: pink-icons;
 animation-duration: 2s;
@@ -66,11 +61,13 @@ animation-direction: alternate;
 animation-iteration-count: infinite;
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    max-width: 180px;
     margin-bottom: 13px;
     @include fonts(48px, 55px, 400, 0.04em)
 }
 
  @media screen and (min-width: 1280px) {
+     max-width: 330px;
      margin-bottom: 30px;
      @include fonts(58px, 66px, 400, 0.04em);
   
@@ -99,12 +96,14 @@ font-weight: 700;
 font-size: 12px;
 line-height: 1.66;
 color: $secondaryTextColor;
-
-@media screen and (min-width: 768px) and (max-width:1279px) {
+max-width: 230px;
+@media screen and (min-width: 768px) {
+    max-width: 210px;
 font-size: 14px;
 line-height: 1.71;
 }
 @media screen and (min-width: 1280px) {
+    min-width: 320px;
     @include fonts(16px, 28px, 700, 0.02em);
 }
 }
