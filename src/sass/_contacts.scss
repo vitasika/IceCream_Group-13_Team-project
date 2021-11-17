@@ -8,6 +8,9 @@
       background: linear-gradient(180deg, #ffffff 15%, #fff5f6, #ffffff, #fff5f6 0%);
     }
   }
+  @media screen and (min-width: 1280px) {
+    background: linear-gradient(180deg, #ffffff 13%, #fff5f6, #ffffff, #fff5f6 0%);
+  }
 }
 
 .contacts {
