@@ -279,6 +279,8 @@
     text-align: right;
     z-index: 2;
     cursor: pointer;
+    color: $primaryTextColor;
+    
     @media screen and (min-width: 1280px){
         width: 92px;
         height: 76px;
