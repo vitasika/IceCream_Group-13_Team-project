@@ -62,6 +62,12 @@
     background: $primaryTextColor;
     position: relative;
     z-index: 9999;
+    background-image: url(/images/contacts-bg1x.png);
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      max-width: 1600px;
+      background-image: url(/images/contacts-bg2x.png);
+    }
   }
 }
 
@@ -79,25 +85,6 @@
   margin-bottom: 54px;
   @media screen and (min-width: 768px) {
     margin-right: 0px;
-  }
-}
-
-.contact-overlay {
-  @media screen and (min-width: 1280px) {
-    margin-left: auto;
-    margin-right: auto;
-    // display: flex;
-    background: $sectionbgColor;
-    background-position-y: 102px;
-    justify-content: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 573px;
-
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      max-width: 1600px;
-      background-image: url(/images/contacts-bg2x.png);
-    }
   }
 }
 
