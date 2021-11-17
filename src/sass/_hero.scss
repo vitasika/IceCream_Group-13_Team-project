@@ -1,6 +1,4 @@
 .hero{
-    // position: relative;
-    // max-width: 1280px;
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
@@ -30,15 +28,41 @@
     fill: $pinkbgCircle;
     position: absolute;
     right: -20%;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 75px;
     z-index: 1;
+    animation: showRight 3s, pulsation 2s linear 3s infinite;
+    
+    @keyframes showRight {
+        from {right:-100%;}
+
+        to {right:-20%;}
+        
+    }
+
+    @keyframes pulsation {
+        0% {transform: scale(1);}
+
+        20% {transform: scale(1.1);}
+
+        40% {transform: scale(1);}
+
+        60% {transform: scale(1);}
+
+        80% {transform: scale(1.1);}
+
+        100% {transform: scale(1);}
+    }
 
     @media screen and (min-width: 768px){
         width: 324px;
         height: 322px;
         right: 20%;
         bottom: 45px;
+        @keyframes showRight {
+        from {right:-100%;}
+
+        to {right:20%;}
+    }
     }
     @media screen and (min-width: 1280px){
         width: 538px;
@@ -94,13 +118,14 @@
 }
 .hero__btn-left{
     background: $accentColor;
-    border-radius: 20px;
+    border-radius: 22px;
     border-width: 0;
     padding: 9px 14px;
     cursor: pointer;
     @include fonts(8px, 10px, 400);
     text-align: center;
     color: $primaryTextColor;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
 
     transition: background $animation;
 
@@ -117,13 +142,14 @@
 }
 .hero__btn-right{
     background: $primaryTextColor;
-    border-radius: 20px;
+    border-radius: 22px;
     border-width: 0;
     padding: 9px 14px;
     cursor: pointer;
     @include fonts(8px, 10px, 400);
     text-align: center;
     color: $accentColor;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
 
     transition: background $animation;
 
@@ -152,6 +178,12 @@
         bottom: 45px;
         left: 6%;
     }
+    animation: showLeft 1s;
+    @keyframes showLeft {
+        from {left:-100%;}
+
+        to {left:6%;}
+    }
 }
 .hero__icecream{
     width: 175px;
@@ -160,6 +192,12 @@
     bottom: 0;
     right: 32px;
     z-index: 2;
+    animation: showBottom 2s;
+    @keyframes showBottom {
+        from {bottom:-100%;}
+
+        to {bottom:0;}
+    }
     @media screen and (min-width: 768px){
         width: 143px;
         height: 336px;
@@ -178,7 +216,12 @@
     left: 20%;
     @include fonts(8px, 12px);
     color: $primaryTextColor;
+    animation: showText 3s;
+    @keyframes showText {
+        from {opacity:0;}
 
+        to {opacity:1;}
+    }
     @media screen and (max-width: 767px) {
         display: none;
     }
@@ -215,6 +258,13 @@
     position: absolute;
     top: 25%;
     right: 5%;
+
+    animation: showTop 2s;
+    @keyframes showTop {
+        from {top:-100%;}
+
+        to {top:25%;}
+    }
     @media screen and (max-width: 767px) {
         display: none;
     }
@@ -224,18 +274,38 @@
 }
 .representation-list__title{
     position: relative;
-    max-width: 51px;
+    width: 51px;
     height: 44px;
-    @include fonts(8px, 10px);
     text-align: right;
-    color: $primaryTextColor;
     z-index: 2;
-
+    cursor: pointer;
     @media screen and (min-width: 1280px){
-        max-width: 92px;
+        width: 92px;
         height: 76px;
+    }
+&:hover .representation-list__link,
+&:focus .representation-list__link{
+    color: $accentColor;
+}
+&:hover .representation-list__icon,
+&:focus .representation-list__icon{
+    width: 120%;
+    height: 120%;
+}
+&:not(:last-child){
+    margin-bottom: 13px;
+    @media screen and (min-width: 1280px){
+        margin-bottom: 15px;
+    }
+}
+}
+.representation-list__link {
+    @include fonts(8px, 10px);
+    color: $primaryTextColor;
+    @media screen and (min-width: 1280px){
         @include fonts(14px, 18px)
     }
+    transition: color $animation;
 }
 .representation-list__title span{
     font-family: Titan One;
@@ -248,15 +318,6 @@
     }
     
 }
-.representation-list__text{
-    position: absolute;
-    right: 0;
-    z-index: 2;
-    width: 51px;
-    @media screen and (min-width: 1280px){
-        width: 92px;
-    }
-}
 .representation-list__icon{
     width: 16px;
     height: 16px;
@@ -264,13 +325,14 @@
     right: -10px;
     top: 0;
     fill: $primaryTextColor;
-    z-index: 1;
+    z-index: -1;
 
     @media screen and (min-width: 1280px){
         width: 30px;
         height: 30px;
         right: -18px;
     }
+    transition: width, height $animation;
 }
 .hero__client{
     width: 168px;
@@ -279,6 +341,7 @@
     bottom: 0;
     right: 5%;
     z-index: 2;
+    animation: showBottom 2s;
     @media screen and (max-width: 767px) {
         display: none;
     }
