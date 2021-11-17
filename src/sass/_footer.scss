@@ -90,11 +90,15 @@
 
 .footer__soc-list {
   display: flex;
+  height: 32px;
   justify-content: flex-end;
 }
 
 .footer__soc-list--top {
-  margin-bottom: 42px;
+  margin-bottom: 46px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 50px;
+  }
 }
 
 .footer__soc-item {
