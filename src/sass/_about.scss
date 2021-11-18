@@ -117,20 +117,29 @@
   }
 }
 
+.about__text:nth-last-child(-n + 3) {
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 62px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 42px;
+  }
+}
+
 .about__text._active {
   transform: translate(0px, 0px);
   opacity: 1;
-  transition: all 0.8s ease 0.5s;
+  transition: all 0.8s ease 0.4s;
+  transition-delay: 0.2s;
 }
 
 .about__button-link {
   max-width: 176px;
-  margin-top: 17px;
   background: $primaryTextColor;
   border-radius: 22px;
   display: inline-flex;
   align-items: center;
-  margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
   z-index: 80;
   position: sticky;
@@ -140,9 +149,6 @@
   color: $accentColor;
   align-items: center;
   transition: background-color $animation;
-  @media screen and (min-width: 768px) {
-    margin-top: 62px;
-  }
   &:hover,
   &:focus {
     background-color: $secondaryhoverBtn;
@@ -177,5 +183,5 @@
 .about__image-milk._active {
   opacity: 1;
   transform: translateY(-50%);
-  transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.7s;
 }
