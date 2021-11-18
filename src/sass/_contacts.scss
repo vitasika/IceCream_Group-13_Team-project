@@ -7,7 +7,7 @@
 
     @media screen and (min-width: 768px) {
       background: linear-gradient(180deg, #ffffff 11%, #fff5f6, #ffffff, #fff5f6 0%);
-      padding-bottom: 165px;
+      padding-bottom: 158px;
     }
   }
   @media screen and (min-width: 1280px) {
@@ -322,14 +322,9 @@
   background: $sectionbgColor;
   display: grid;
   justify-content: center;
-  padding-bottom: 113px;
+
   @media screen and (min-width: 768px) {
     display: flex;
-    padding-bottom: 165px;
-  }
-  @media screen and (min-width: 1280px) {
-    display: flex;
-    padding-bottom: 165px;
   }
 }
 
