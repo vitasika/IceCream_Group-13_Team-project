@@ -22,7 +22,7 @@ $("nav").on("click","a", function (event) {
         var id  = $(this).attr('href'),
  
         // находим высоту, на которой расположен блок
-            top = $(id).offset().top-100;
+            top = $(id).offset().top-90;
          
         // анимируем переход к блоку, время: 800 мс
         $('body,html').animate({scrollTop: top}, 800);
