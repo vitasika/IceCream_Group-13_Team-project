@@ -108,6 +108,12 @@
   border-radius: 50%;
   background-color: transparent;
   margin: 0 auto;
+  transition: transform $animation;
+  
+  &:hover,
+  &:focus {
+      transform: scale(1.2);
+  }
 }
 .next-btn {
   width: 100%;
