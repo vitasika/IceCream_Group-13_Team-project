@@ -92,7 +92,6 @@
     font-family: Titan One;
     @include fonts(26px, 30px, 400, 0.04em);
     text-transform: uppercase;
-    margin-bottom: 20px;
     color: $primaryTextColor;
 
     @media screen and (min-width: 768px){
@@ -100,7 +99,13 @@
     }
     @media screen and (min-width: 1280px){
         @include fonts(38px, 44px);
-        margin-bottom: 25px;
+    }
+}
+.hero-content__navigation{
+    display: flex;
+    padding-top: 25px;
+    @media screen and (min-width: 1280px){
+        padding-top: 40px;
     }
 }
 .hero__title span{
@@ -120,6 +125,7 @@
     background: $accentColor;
     border-radius: 22px;
     border-width: 0;
+    margin-right: 8px;
     padding: 9px 14px;
     cursor: pointer;
     @include fonts(8px, 10px, 400);
@@ -243,11 +249,15 @@
     cursor: pointer;
     border-radius: 50%;
     background-color: transparent;
-    
+    transition: transform $animation;
     @media screen and (min-width: 1280px){
         width: 24px;
         height: 24px;
         margin-top: 20px;
+    }
+    &:hover,
+    &:focus {
+        transform: scale(1.2);
     }
 }
 .hero__icon{
@@ -272,8 +282,9 @@
         right: 8%;
     }
 }
-.representation-list__title{
+.representation-list__item{
     position: relative;
+    display: flex;
     width: 51px;
     height: 44px;
     text-align: right;
@@ -309,7 +320,7 @@
     }
     transition: color $animation;
 }
-.representation-list__title span{
+.representation-list__item span{
     font-family: Titan One;
     @include fonts(28px, 32px, 400, 0.04em);
     text-transform: uppercase;
@@ -335,6 +346,7 @@
         right: -18px;
     }
     transition: width, height $animation;
+    animation: pulsation 2s linear 3s infinite; 
 }
 .hero__client{
     width: 168px;
