@@ -1,5 +1,7 @@
 # Parcel boilerplate
 
+ссылка на макет в Figma: https://www.figma.com/file/ItEDbn8bZ6c1BWMtTNFOHV/IceCream?node-id=0%3A1
+
 ## Скрытые файлы
 
 Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не
