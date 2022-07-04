@@ -1,6 +1,8 @@
-# Parcel boilerplate
+# Ice Cream
 
 ссылка на макет в Figma: https://www.figma.com/file/ItEDbn8bZ6c1BWMtTNFOHV/IceCream?node-id=0%3A1
+
+# Parcel boilerplate
 
 ## Скрытые файлы
 
